@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="/Projeto To-Do-List/Styles/styles.css">
+    <link rel="stylesheet" href="/Styles/styles.css">
 
     <title>To-Do List</title>
 </head>
+<body>
 <div class="container">
         <div class="header">
             <h1 class="title">To-do-List</h1>
@@ -17,7 +18,7 @@
         
         <div class="input-section">
             <div class="input-container">
-                <input type="text" class="task-input" id="inputTarefa" placeholder="Digite sua nova tarefa..." id="taskInput">
+                <label for="inputTarefa"></label><input type="text" class="task-input" id="inputTarefa" placeholder="Digite sua nova tarefa...">
                 <button class="add-btn" onclick="addTask()">Adicionar</button>
             </div>
             <div class="stats">
@@ -34,6 +35,6 @@
             </div>
         </div>
     </div>
-    <script src="/Projeto To-Do-List/Scripts/scripts.js"></script>
+    <script src="/Scripts/scripts.js"></script>
 </body>
 </html>
