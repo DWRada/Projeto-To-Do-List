@@ -1,3 +1,4 @@
-Esse é um projeto básico de um To-Do-List.<br>
-Por enquanto está sem nenhuma interatividade, somente HTML e CSS.<br>
-As interações com JavaScript serão implementadas em breve.
+
+Projeto básico de um To-do-List em HTML, CSS e JavaScript.<br>
+Todas interações já estão funcionando.<br>
+Ainda tenho muito a aprender, e agora por último, falta a persistência dos dados para o salvamento da sua lista de tarefas personalizada.
